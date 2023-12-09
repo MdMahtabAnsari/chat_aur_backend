@@ -1,16 +1,21 @@
 {
-  "name": "chat_aur_backend",
-  "version": "1.0.0",
-  "description": "a backend at chai aur code channel - youtube",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "javascript",
-    "backend",
-    "chai"
-  ],
-  "author": "Hitesh Choudhary",
-  "license": "ISC"
+	"name": "chat_aur_backend",
+	"version": "1.0.0",
+	"description": "a backend at chai aur code channel - youtube",
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "nodemon src/index.js"
+	},
+	"keywords": [
+		"javascript",
+		"backend",
+		"chai"
+	],
+	"author": "Hitesh Choudhary",
+	"license": "ISC",
+	"devDependencies": {
+		"nodemon": "^3.0.2"
+	}
 }
